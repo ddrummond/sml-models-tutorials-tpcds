@@ -853,6 +853,10 @@ relationships:
     to:
       dimension: Date Dimensions
       level: Time Dimension
+    constraint_translation:       
+      level: Calendar Quarter
+      from_columns: 
+        - ws_sold_year_month
   - unique_name: web_sales_Date_Dimension_Ship_1
     from:
       dataset: web_sales
