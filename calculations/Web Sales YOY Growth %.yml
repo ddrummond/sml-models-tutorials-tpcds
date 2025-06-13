@@ -1,0 +1,8 @@
+unique_name: Web Sales YOY Growth %
+object_type: metric_calc
+label: Web Sales YOY Growth %
+expression: >-
+  ([Measures].[Web Sales] - [Measures].[Web Sales LY])  / [Measures].[Web Sales
+  LY]
+format: percent
+is_hidden: false
