@@ -172,6 +172,7 @@ level_attributes:
       - year_month
     name_column: year_month
     time_unit: month
+    constraint_translation_rank: 1 
   - unique_name: Calendar Quarter
     label: Calendar Quarter
     allowed_calcs_for_dma:
@@ -188,7 +189,6 @@ level_attributes:
     name_column: year_quarter
     sort_column: year_quarter
     time_unit: quarter
-    constraint_translation_rank: 1 
   - unique_name: Calendar Week
     label: Calendar Week
     allowed_calcs_for_dma:

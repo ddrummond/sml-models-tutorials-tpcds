@@ -16,7 +16,7 @@ columns:
   - name: d_current_year
     data_type: string
   - name: d_date
-    data_type: string
+    data_type: date
   - name: d_date_id
     data_type: string
   - name: d_date_sk

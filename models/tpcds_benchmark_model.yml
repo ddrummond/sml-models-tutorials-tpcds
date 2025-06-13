@@ -854,7 +854,7 @@ relationships:
       dimension: Date Dimensions
       level: Time Dimension
     constraint_translation:       
-      level: Calendar Quarter
+      level: Calendar Month
       from_columns: 
         - ws_sold_year_month
   - unique_name: web_sales_Date_Dimension_Ship_1
