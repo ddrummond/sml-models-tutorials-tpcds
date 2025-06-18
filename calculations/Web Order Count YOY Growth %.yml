@@ -1,0 +1,8 @@
+unique_name: Web Order Count YOY Growth %
+object_type: metric_calc
+label: Total Web Order Count YOY Growth %
+expression: >-
+  ([Measures].[Web Order Count] - [Measures].[Web Order Count LY])  /
+  [Measures].[Web Order Count LY]
+format: percent
+is_hidden: false

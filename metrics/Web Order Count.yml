@@ -1,0 +1,7 @@
+unique_name: Web Order Count
+object_type: metric
+label: Web Order Count
+calculation_method: count distinct
+column: ws_order_number
+dataset: web_sales
+format: standard

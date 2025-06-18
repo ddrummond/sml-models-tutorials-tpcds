@@ -560,6 +560,13 @@ metrics:
     folder: Time Relative
   - unique_name: Web Sales YOY Growth %
     folder: Time Relative
+  - unique_name: Web Order Count LY
+    folder: Time Relative
+  - unique_name: Web Order Count YOY Growth %
+    folder: Time Relative
+  - unique_name: Web Order Count
+    folder: Web Sales Measures
+
 partitions:
   - unique_name: TPC-DS Benchmark Model.Date Dimensions.Calendar Year.partition
     attribute: Calendar Year

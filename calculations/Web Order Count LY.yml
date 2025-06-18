@@ -1,0 +1,8 @@
+unique_name: Web Order Count LY
+object_type: metric_calc
+label: Web Order Count LY
+expression: >-
+  (ParallelPeriod([Sold Date Dimensions].[Sold Date Dimensions].[Sold Calendar
+  Year], 1), [Measures].[Web Order Count])
+format: standard
+is_hidden: false
